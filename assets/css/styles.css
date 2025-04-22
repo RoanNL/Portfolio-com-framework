@@ -9,6 +9,8 @@
 
 
 
+
+
 .bgimage {
   height: 100vh;
   background: url('/assets/img/bgimage.png');
@@ -68,13 +70,13 @@
 
 .social-icons a {
   margin: 0 10px;
-  color: var(--white);
+  color: var(--white) !important;
   font-size: 1.5rem;
   transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: var(--OrangeWeb);
+  color: var(--OrangeWeb) !important;
 }
 
 #footer {
@@ -97,5 +99,19 @@
   transition: all 0.3s ease-in-out;
   transform: scale(1.05);
   border-radius: 30px;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(15px);
+  transform: translateX(-100%);
+  transition: all 1.5s; 
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 1.5s; 
 }
 
