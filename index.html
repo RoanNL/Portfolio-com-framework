@@ -23,7 +23,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+  <nav class="navbar navbar-expand-lg fixed-top navbarScroll hidden">
     <div class="container">
         <a class="navbar-brand" href="#">Roan</a>
         <button class="navbar-toggler fa-solid" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +54,7 @@
 
   <div class="scroller">
      <!-- banner principal -->
-     <section class="bgimage" id="home">
+     <section class="bgimage hidden" id="home">
       <div class="container-fluid">
           <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 home-text">
@@ -66,16 +66,16 @@
   </section>
 
   <!-- seção sobre-->
-  <section class="alternado bg-gradient-2" id="sobre">
+  <section class="alternado bg-gradient-2 hidden" id="sobre">
     <div class="container mt-4 pt-4">
-        <h1 class="text-center" data-scroll data-scroll-speed="1" data-scroll-position="left" data-scroll-direction="horizontal" >Quem sou</h1>
+        <h1 class="text-center">Quem sou</h1>
         <div class="row mt-4">
             <div class="col-lg-4">
                 <img src="assets/img/me.jpg" class= "imageAboutPage" alt="">
             </div>
 
             <div class="col-lg-8">
-                <p data-scroll data-scroll-speed="-2" data-scroll-position="left" data-scroll-direction="horizontal"> Olá, eu sou o Roan Nascimento Lisboa, atualmente estuando Ciência da Computação na UNIFACS.
+                <p> Olá, eu sou o Roan Nascimento Lisboa, atualmente estuando Ciência da Computação na UNIFACS.
                   Sou apaixonado por tecnologia e estou sempre buscando aprender novas habilidades e
                   tecnologias.
                   Minha jornada profissional comecou com o curso de Desenvolvimento Web na Udemy e estou me
@@ -83,7 +83,7 @@
                 </p>
                 <div class="row mt-3">
                     <div class="col-md-6">
-                        <ul data-scroll data-scroll-speed="-1" data-scroll-position="right" data-scroll-direction="vertical">
+                        <ul>
                             <li>Nome: Roan Nascimento Lisboa</li>
                             <li>Idade: 20</li>
                             <li>Cidade: Salvador, Bahia</li>
@@ -91,7 +91,7 @@
                         </ul>
                     </div >
                     <div class="col-md-6">
-                        <ul data-scroll data-scroll-speed="-1" data-scroll-position="right" data-scroll-direction="vertical">
+                        <ul>
                             <li>Ciência da Computação</li>
                             <li>Desenvolvedor Full-Stack</li>
                         </ul>
@@ -103,7 +103,7 @@
 
 
 <!-- Seção de Habilidades-->
-<section id="servicos" class="bg-gradient-3">
+<section id="servicos" class="bg-gradient-3 hidden">
   <div class="container">
     <h1 class="text-center" >Habilidades</h1>
     <hr>
@@ -148,13 +148,13 @@
 </section>
 
 <!-- Seção de Portfolio-->
-<section id="portfolio" class="bg-gradient-2">
-  <div class="container mt-3">
+<section id="portfolio" class="bg-gradient-2 hidden">
+  <div class="container mt-3 logos">
     <h1 class="text-center">Portfolio</h1>
 
     <div class="row">
       
-      <div class="col-lg-4 mt-4" data-scroll data-scroll-speed="1" data-scroll-position="left" data-scroll-direction="horizontal">
+      <div class="col-lg-4 mt-4 hidden">
         <div class="card">
           <img class="card-img-top" src="/assets/img/Lading-Page.jpg" alt="Lading Page" style="width:100%">
           <div class="card-body">
@@ -168,7 +168,7 @@
       </div>
 
       
-      <div class="col-lg-4 mt-4" data-scroll data-scroll-speed="-2" data-scroll-position="left" data-scroll-direction="horizontal"> 
+      <div class="col-lg-4 mt-4 hidden"> 
         <div class="card portfolioContent">
           <img class="card-img-top" src="/assets/img/portifolioapp.jpg" alt="Primeiro portifólio" style="width:100%">
           <div class="card-body">
@@ -187,7 +187,7 @@
 </section>
 
 <!-- Página de Contato -->
-<section id="contato" class="container mt-5 pt-5">
+<section id="contato" class="container mt-5 pt-5 hidden">
   <h1 class="text-center mb-4">Contato</h1>
   <div class="container row">
     <div class="col-md-6">
@@ -218,7 +218,7 @@
 <br>
 
 
-<footer id="footer">
+<footer id="footer" class="hidden">
   <div class="container-fluid">
    
     <div class="social-icons mt-4">
